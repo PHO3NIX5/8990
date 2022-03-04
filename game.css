@@ -1,16 +1,20 @@
 body{
-    background-color: black;
+background-color: black;
+
+}
+span{
+	color: #1eff00;
 }
 
 	.login_div1 , .login_div2
 	{
-		background: white;
+		background: rgb(138, 138, 138);
 		padding: 10px;
 		float: none;
 		border-radius: 15px;
 		width: 30%;
 		height: 150px;
-		background-color: rgb(0, 255, 13);
+		color: #000;
 	}
 
 
@@ -18,7 +22,7 @@ body{
 {
 	display: inline-block;
 	margin-left: 3px;
-	color: tomato;
+	color: rgb(0, 255, 0);
 	font-weight: bold;
 }
 #word
@@ -31,49 +35,62 @@ body{
 }
 #output
 {
-	background: white;
+	background: rgb(49, 49, 49);
 	border-radius: 10px;
-	border-top: 10px solid #AA4465;
+	border-top: 10px solid #1eff00;
 	padding: 10px;
 	float: none;
 	text-align: left;
 }
 h1{
-	color: orange;
+	color: rgb(0, 255, 0);
 	font-family: 'Akaya Kanadaka', cursive;
 }
 h3{
 	font-family: 'Lora', serif;
-	color: teal;
+	color: rgb(21, 255, 0);
 }
 #username{
 	font-family: 'Yellowtail', cursive;
-	color: turquoise;
+	color: rgb(30, 255, 0);
 }
 button{
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 input:hover{
-	background-color: yellow;
+	background-color: rgb(0, 255, 0);
 }
 .login_div2:hover{
-	border: 5px solid rgb(102, 6, 73);
+	border: 5px solid rgb(0, 255, 34);
 	width: 35%;
+	color: #000;
 }
 .login_div1:hover{
-	border: 5px solid rgb(102, 6, 73);
+	border: 5px solid rgb(50, 51, 50);
 	width: 35%;
+color: #000;
 }
 #number_1,#number_2
 {
-	color: tomato;
+	color: rgb(43, 255, 0);
 	font-weight: bold;
 }
 h4{
-	color: bisque;
+	color: rgb(0, 255, 13);
 	font-family: 'Akaya Kanadaka', cursive;
 	width: 100px;
 }
 h4:hover{
 	text-decoration: underline;
+	color: #000;
+}
+#player_1_name, #player_2_name{
+	display: inline-block;
+	margin-left: 3px;
+}
+h5{
+	color: rgb(0, 255, 0);
+}
+button{
+	background-color: #1eff00;
 }
